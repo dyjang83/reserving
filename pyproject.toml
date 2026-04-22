@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "reserving"
+name = "actuarial-reserving"
 version = "0.1.0"
 description = "P&C loss reserve estimation — chain-ladder, BF, and Cape Cod with bootstrap CIs"
 readme = "README.md"
@@ -24,3 +24,6 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/dyjang83/reserving"
 Documentation = "https://dyjang83.github.io/reserving"
+
+[tool.hatch.build.targets.wheel]
+packages = ["reserving"]
