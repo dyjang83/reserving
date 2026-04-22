@@ -5,3 +5,6 @@ __pycache__/
 dist/
 *.egg-info/
 .coverage
+.DS_Store
+**/.DS_Store
+site/
